@@ -15,9 +15,11 @@
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
+  transition: all 1s ease-in-out;
 }
 .dropdown .dropdown-button:hover {
   background-color: #be2530;
+  transform: translateY(10px);
 }
 .dropdown .dropdown-content {
   width: 100%;
@@ -65,6 +67,7 @@
 }
 .tabs .tabs-item-selected {
   display: block;
+  transition: all 0.7s ease-in-out;
 }
 .tabs .tabs-links {
   display: flex;
@@ -77,6 +80,7 @@
   border-right: 1px solid white;
   color: #ffffff;
   cursor: pointer;
+  transition: all 0.7s ease-in-out;
 }
 .tabs .tabs-link:hover {
   background-color: #be2530;
@@ -86,6 +90,7 @@
   border-right: 1px solid #931d25;
   background-color: #ffffff;
   color: black;
+  transition: all 0.6s ease-in-out;
 }
 .tabs .tabs-link-selected:hover {
   background-color: #ffffff;
@@ -94,6 +99,11 @@ body {
   box-sizing: border-box;
   min-width: 300px;
   margin: 0;
+  background-image: url(/LESS/overlay.png), url(/LESS/background-carpentry-design-960137.jpg);
+  background-repeat: repeat, no-repeat;
+  background-size: auto, 100% 100%;
+  background-attachment: fixed;
+  color: white;
 }
 .header-container {
   width: 100%;
